@@ -30,5 +30,7 @@ while True:
                 relate_address.append(i['to'])
                 print(i, relate_address)
         del relate_address[0]
-    
+    else:
+        break
+
 print(all_dataset)
