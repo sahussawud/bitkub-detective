@@ -33,4 +33,6 @@ while True:
     else:
         break
 
-print(all_dataset)
+print('No | Tx Address | From | To |  Amount Tranfer')
+for i in all_dataset:
+    print(i['hash'], i['from'], i['to'], i['value'])
